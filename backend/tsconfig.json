@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Basic Project Settings */
+    "target": "ES6",                                /* Set the JavaScript language version for emitted JavaScript. */
+    "module": "commonjs",                           /* Use CommonJS for backend compatibility. */
+    "outDir": "./dist",                             /* Output directory for compiled files. */
+    "rootDir": "./src",                             /* Specify the root directory of the input files. */
+    "strict": true,                                 /* Enable all strict type-checking options. */
+    "esModuleInterop": true,                        /* Allow default imports from modules with no default export. */
+    "forceConsistentCasingInFileNames": true,       /* Enforce consistent casing in imports. */
+    "skipLibCheck": true,                           /* Skip type checking of declaration files. */
+
+    /* Debugging Options */
+    "sourceMap": true,                              /* Generate .map files for debugging. */
+    "inlineSources": true,                          /* Include source code in .map files. */
+
+    /* Node.js Compatibility */
+    "resolveJsonModule": true,                      /* Enable importing JSON files. */
+
+    /* Module Resolution */
+    "moduleResolution": "node",                    /* Use Node.js-style resolution. */
+
+    /* Advanced Options */
+    "allowJs": false,                               /* Disallow JavaScript files in the project. */
+    "noEmitOnError": true                           /* Do not emit output if there are errors. */
+  },
+  "include": ["src/**/*"],                          /* Include all TypeScript files in the 'src' directory. */
+  "exclude": ["node_modules", "dist"]               /* Exclude unnecessary files or directories. */
+}
